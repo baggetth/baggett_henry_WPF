@@ -23,3 +23,13 @@ var degCent; 
 
  degCent = 5/9 * (degFahren - 32);  // formula to change fahrenheit to centigrade
 alert("The average temperature in centigrade is " + degCent + " centigrade");    //outputs the temperature in centigrade
+
+var Cels1 = prompt("Enter enter temperature in celsius");  // prompts user to enter temperature in centigrade
+var Cels2 = Number("21");  // temperature that determent's if user goes out or not
+
+if (Cels1<Cels2)  // less then 21 celsius
+{ 
+    alert("Stay inside");  //if temp is below 21 celsius go inside
+} 
+else if (Cels1>Cels2) // Greater then 21 celsius
+     
