@@ -13,6 +13,7 @@ var Temp1 = 76; // temperature 1
 var Temp3 = 77;  // temperature 3
 var Temp4 = 67;  // temperature 4
 var Temp5 = 74; // temperature 5
+
 var total = (Temp1 + Temp2 + Temp3 + Temp4 + Temp5)/5;  //temperatures total and divided by 5
 
 alert("The average temperature will be "  +total+ " degrees fahrenheit" );  //user is informed as to the average in fahrenheit
@@ -32,6 +33,8 @@ if (Cels1<Cels2)  // less then 21 celsius
     alert("Stay inside");  //if temp is below 21 celsius go inside
 } 
 else if (Cels1>Cels2) // Greater then 21 celsius
-
+     
 { 
-    alert("Go outside and have a great day");     
+    alert("Go outside and have a great day");   // if temp is over 21 celsius go outside
+
+}
