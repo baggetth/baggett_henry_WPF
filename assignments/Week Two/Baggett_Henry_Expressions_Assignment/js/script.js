@@ -16,3 +16,10 @@ var Temp5 = 74; // temperature 5
 var total = (Temp1 + Temp2 + Temp3 + Temp4 + Temp5)/5;  //temperatures total and divided by 5
 
 alert("The average temperature will be "  +total+ " degrees fahrenheit" );  //user is informed as to the average in fahrenheit
+
+var degFahren = prompt("Enter the degrees in fahrenheit",50);  //user enters temperature in fahrenheit
+
+var degCent; 
+
+ degCent = 5/9 * (degFahren - 32);  // formula to change fahrenheit to centigrade
+alert("The average temperature in centigrade is " + degCent + " centigrade");    //outputs the temperature in centigrade
