@@ -32,4 +32,6 @@ if (Cels1<Cels2)  // less then 21 celsius
     alert("Stay inside");  //if temp is below 21 celsius go inside
 } 
 else if (Cels1>Cels2) // Greater then 21 celsius
-     
+
+{ 
+    alert("Go outside and have a great day");     
