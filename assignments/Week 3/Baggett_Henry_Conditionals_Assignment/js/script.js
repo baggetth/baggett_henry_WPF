@@ -26,3 +26,11 @@ alert("All our positions require a Minimum of 10 years Experience?"); 
 var num1=prompt("Enter Years of Experience"); 
 var num2=Number("9");  
 
+if (num2<num1)
+{ 
+    alert("Your Years of Experience is 10 years or over, please proceed"); 
+}
+else if (num2>num1)
+{
+     alert("Your Years of Experience is Less then 10 years, sorry, however we have other jobs that don't require 10 years");
+ } 
