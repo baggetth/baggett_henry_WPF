@@ -43,4 +43,7 @@ worlkPlace = worlkPlace.toLowerCase();
  while(worlkPlace !="yes" && worlkPlace!="Yes"){ 
 
       //reprompt if you don't use yes or no 
- worlkPlace =prompt("Only type in yes or no. If you would like to go to the office?");  } 
+ worlkPlace =prompt("Only type in yes or no. If you would like to go to the office?");
+   }
+
+  {     alert("We look forward in working with you"); } 
