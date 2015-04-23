@@ -34,3 +34,13 @@ else if (num2>num1)
 {
      alert("Your Years of Experience is Less then 10 years, sorry, however we have other jobs that don't require 10 years");
  } 
+//question do we go to the office or not
+var worlkPlace= prompt("Would you like to the office? Please answer yes or no:");
+
+worlkPlace = worlkPlace.toLowerCase();
+
+//question can be answered with yes or Yes
+ while(worlkPlace !="yes" && worlkPlace!="Yes"){ 
+
+      //reprompt if you don't use yes or no 
+ worlkPlace =prompt("Only type in yes or no. If you would like to go to the office?");  } 
